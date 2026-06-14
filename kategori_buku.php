@@ -93,5 +93,8 @@
         </tbody>
     </table>
 </div>
+</div>
+<div class="clearfix" style="bottom: 0; position: fixed; width: 100%; background-color: var(--background); left:0;">
+    <?php include("template/footer.php"); ?>
 
-<?php include("template/footer.php"); ?>
+</div>

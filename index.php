@@ -2,7 +2,9 @@
 require 'data/connection.php';
 
 $success = $_GET['success'] ?? '';
+$error = $_GET['error'] ?? '';
 ?>
+
 
 
 
@@ -171,6 +173,11 @@ $success = $_GET['success'] ?? '';
                     </div>
                 <?php } ?>
 
+                <?php if (!empty($error)) { ?>
+                    <div class="alert alert-danger text-center shadow-sm border-0" role="alert" style="background: rgba(220,53,69,.18); color:#ffe1e5;">
+                        <?= htmlspecialchars($error) ?>
+                    </div>
+                <?php } ?>
 
                 <form action="login_aksi.php" method="post">
                     <div class="mb-3">

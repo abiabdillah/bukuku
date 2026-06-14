@@ -22,13 +22,8 @@ if (isset($_POST['submit'])) {
         exit();
     
     } else {
-        
-        echo "<div class='container mt-5'><div class='alert alert-danger text-center shadow-sm'>";
-        echo "<h4 class='alert-heading'>Akses Ditolak!</h4>";
-        echo "<p>Username atau password yang Anda masukkan salah.</p><hr>";
-        echo "<a href='index.php' class='btn btn-danger btn-sm'>Kembali ke Halaman Login</a>";
-        echo "</div></div>";
-        
+        $error = "Username atau password yang Anda masukkan salah.";
+        header("location:index.php?error=" . urlencode($error));
         exit();
     }
 }

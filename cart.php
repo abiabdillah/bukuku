@@ -122,6 +122,7 @@ $id_user = isset($_SESSION['id']) ? $_SESSION['id'] : 0;
         <?php endif; ?>
     </div>
 </div>
-
-<?php include("template/footer.php"); ?>
-
+</div>
+<div class="footer" style = "width: 100%; background-color: var(--background); padding: 1rem 0; text-align: center; margin-top: auto;">
+    <?php include("template/footer.php"); ?>
+</div>
