@@ -102,6 +102,6 @@ File terkait:
 
 ## Catatan
 
-- Jika ingin melihat langsung aplikasi buildwithabi.free.je
+- Jika ingin melihat langsung aplikasi [buildwithabi.free.je](https://buildwithabi.free.je/listbuku.php)
 - Pastikan database `tokobuku` sudah terimport agar aplikasi dapat berjalan.
 - Jika terjadi error koneksi database, periksa kembali konfigurasi pada `data/connection.php`.
