@@ -102,5 +102,6 @@ File terkait:
 
 ## Catatan
 
+- Jika ingin melihat langsung aplikasi buildwithabi.free.je
 - Pastikan database `tokobuku` sudah terimport agar aplikasi dapat berjalan.
 - Jika terjadi error koneksi database, periksa kembali konfigurasi pada `data/connection.php`.
